@@ -1,39 +1,39 @@
 # Changelog
 
-## [1.0.11](https://github.com/dmmdekkd/karin-plugin-qbot/compare/v1.0.10...v1.0.11) (2026-09-12)
+## [1.0.11](https://github.com/CialloJS/karin-plugin-qbot/compare/v1.0.10...v1.0.11) (2026-09-12)
 
 
 ### ♻️ 代码重构
 
-* 优化模板资源加载逻辑，适配新的包发布结构 ([72f8132](https://github.com/dmmdekkd/karin-plugin-qbot/commit/72f81327d94def7463dfbe264cbd9114b68627b4))
+* 优化模板资源加载逻辑，适配新的包发布结构 ([72f8132](https://github.com/CialloJS/karin-plugin-qbot/commit/72f81327d94def7463dfbe264cbd9114b68627b4))
 
-## [1.0.10](https://github.com/dmmdekkd/karin-plugin-qbot/compare/v1.0.9...v1.0.10) (2026-09-12)
+## [1.0.10](https://github.com/CialloJS/karin-plugin-qbot/compare/v1.0.9...v1.0.10) (2026-09-12)
 
 
 ### 🎡 持续集成
 
-* **github workflows:** npm 发布使用 NPM_TOKEN 认证 ([59a2bd0](https://github.com/dmmdekkd/karin-plugin-qbot/commit/59a2bd014ee2416fe54276767adb7cd821c5f944))
+* **github workflows:** npm 发布使用 NPM_TOKEN 认证 ([59a2bd0](https://github.com/CialloJS/karin-plugin-qbot/commit/59a2bd014ee2416fe54276767adb7cd821c5f944))
 
-## [1.0.9](https://github.com/dmmdekkd/karin-plugin-qbot/compare/v1.0.8...v1.0.9) (2026-09-12)
+## [1.0.9](https://github.com/CialloJS/karin-plugin-qbot/compare/v1.0.8...v1.0.9) (2026-09-12)
 
 
 ### 🐛 错误修复
 
-* **update:** 使用远端最新版本渲染更新日志 ([d6ff9e7](https://github.com/dmmdekkd/karin-plugin-qbot/commit/d6ff9e79a4520cf6b34ab0d40849e62581dae222))
+* **update:** 使用远端最新版本渲染更新日志 ([d6ff9e7](https://github.com/CialloJS/karin-plugin-qbot/commit/d6ff9e79a4520cf6b34ab0d40849e62581dae222))
 
 
 ### ♻️ 代码重构
 
-* **index:** 初始化日志改为插件名+版本+耗时格式 ([1d8e71d](https://github.com/dmmdekkd/karin-plugin-qbot/commit/1d8e71d9ec2fc5b56a80fc9defdd32a45c33321b))
-* **render:** rewrite template lazy import to static string ([b2cfb25](https://github.com/dmmdekkd/karin-plugin-qbot/commit/b2cfb258a81527908c85fffdba20e06d9a7d1fbb))
-* **update:** 移除更新日志消息的插件名前缀文案 ([2380a4c](https://github.com/dmmdekkd/karin-plugin-qbot/commit/2380a4cbe134c987d5ac6f1d6d056c3a4e9cae78))
+* **index:** 初始化日志改为插件名+版本+耗时格式 ([1d8e71d](https://github.com/CialloJS/karin-plugin-qbot/commit/1d8e71d9ec2fc5b56a80fc9defdd32a45c33321b))
+* **render:** rewrite template lazy import to static string ([b2cfb25](https://github.com/CialloJS/karin-plugin-qbot/commit/b2cfb258a81527908c85fffdba20e06d9a7d1fbb))
+* **update:** 移除更新日志消息的插件名前缀文案 ([2380a4c](https://github.com/CialloJS/karin-plugin-qbot/commit/2380a4cbe134c987d5ac6f1d6d056c3a4e9cae78))
 
 
 ### 🎡 持续集成
 
-* **github actions:** 修改pkg-pr-new输出日志收集方式 ([9f3e3f5](https://github.com/dmmdekkd/karin-plugin-qbot/commit/9f3e3f54cc36f53d2fd922e825f13868e88c86a9))
-* **github workflows:** 修复版本比较逻辑的返回值处理问题 ([f590681](https://github.com/dmmdekkd/karin-plugin-qbot/commit/f590681caf8e4e6e36d9cf05baba86a12baa8053))
-* **github workflows:** 预览包版本以 package.json 为唯一基准，移除 tag/release-please 推算 ([d2430e5](https://github.com/dmmdekkd/karin-plugin-qbot/commit/d2430e5007c5d7d81461e1a8959247d93ea9b395))
+* **github actions:** 修改pkg-pr-new输出日志收集方式 ([9f3e3f5](https://github.com/CialloJS/karin-plugin-qbot/commit/9f3e3f54cc36f53d2fd922e825f13868e88c86a9))
+* **github workflows:** 修复版本比较逻辑的返回值处理问题 ([f590681](https://github.com/CialloJS/karin-plugin-qbot/commit/f590681caf8e4e6e36d9cf05baba86a12baa8053))
+* **github workflows:** 预览包版本以 package.json 为唯一基准，移除 tag/release-please 推算 ([d2430e5](https://github.com/CialloJS/karin-plugin-qbot/commit/d2430e5007c5d7d81461e1a8959247d93ea9b395))
 
 ## 1.0.8
 

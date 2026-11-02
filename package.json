@@ -1,16 +1,16 @@
 {
   "name": "karin-plugin-qbot",
   "version": "1.0.11",
-  "author": "dmmdekkd",
+  "author": "CialloJS",
   "type": "module",
   "description": "基于Karin编写的开放平台管理端插件",
-  "homepage": "https://github.com/dmmdekkd/karin-plugin-qbot",
+  "homepage": "https://github.com/CialloJS/karin-plugin-qbot",
   "bugs": {
-    "url": "https://github.com/dmmdekkd/karin-plugin-qbot/issues"
+    "url": "https://github.com/CialloJS/karin-plugin-qbot/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmmdekkd/karin-plugin-qbot.git"
+    "url": "git+https://github.com/CialloJS/karin-plugin-qbot.git"
   },
   "scripts": {
     "app": "node dist/app.js",
