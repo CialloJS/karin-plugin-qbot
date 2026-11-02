@@ -1,5 +1,69 @@
 # Changelog
 
+## [1.1.0](https://github.com/CialloJS/karin-plugin-qbot/compare/v1.0.11...v1.1.0) (2026-11-02)
+
+
+### ✨ 新功能
+
+* 初始化QQ开放平台机器人管理插件 ([a794650](https://github.com/CialloJS/karin-plugin-qbot/commit/a7946507e5032ca966a57f000601a0ce59ded977))
+* 初始化QQ开放平台机器人管理插件v1.0.0 ([d677065](https://github.com/CialloJS/karin-plugin-qbot/commit/d677065c5e1fedafa29ecb42cf90cc2de747d17e))
+
+
+### 🐛 错误修复
+
+* **update:** 使用远端最新版本渲染更新日志 ([d6ff9e7](https://github.com/CialloJS/karin-plugin-qbot/commit/d6ff9e79a4520cf6b34ab0d40849e62581dae222))
+
+
+### 📝 文档更新
+
+* 更新README为QBot插件项目文档 ([21147b3](https://github.com/CialloJS/karin-plugin-qbot/commit/21147b32054f64d6c3f038965997383dedb95341))
+
+
+### 🧰 其他更新
+
+* **main:** release  1.0.10 ([377c9e2](https://github.com/CialloJS/karin-plugin-qbot/commit/377c9e26c0dc44924ef41f50bb50b435fcc7ef9c))
+* **main:** release  1.0.10 ([cb29f90](https://github.com/CialloJS/karin-plugin-qbot/commit/cb29f90f6f0a539fa2cd091c1aa4c692a8861ccd))
+* **main:** release  1.0.11 ([0cdb2d7](https://github.com/CialloJS/karin-plugin-qbot/commit/0cdb2d75d5872cd8713e03b4cff1d06548bbbbce))
+* **main:** release  1.0.11 ([27720b8](https://github.com/CialloJS/karin-plugin-qbot/commit/27720b861bc1f6f79702f85a02748df1e8a7152a))
+* **main:** release 1.0.9 ([e1e5c2e](https://github.com/CialloJS/karin-plugin-qbot/commit/e1e5c2eb3cf867a404f9afd5ab8c57f37cf3402f))
+* **package.json:** add pnpm onlyBuiltDependencies config ([060a6d1](https://github.com/CialloJS/karin-plugin-qbot/commit/060a6d1990254b5c77e596bbe237c75fc2d29020))
+* **pnpm:** 更新pnpm配置适配v11版本 ([0dfdd7b](https://github.com/CialloJS/karin-plugin-qbot/commit/0dfdd7b102ce8d4f131a2316b34114daf5a51e2c))
+* release v1.0.1 and update changelog ([e104670](https://github.com/CialloJS/karin-plugin-qbot/commit/e1046708743bc0d95dc41d526446f085918bf7f1))
+* release v1.0.5 统一字体渲染并清理冗余字体文件 ([00a9723](https://github.com/CialloJS/karin-plugin-qbot/commit/00a972398561cbf0a68112ca0f61602d52ae059b))
+* release v1.0.7 并重构发布流程 ([2bffc73](https://github.com/CialloJS/karin-plugin-qbot/commit/2bffc73c50864c93f4dbe158740d82a156543117))
+* release version 1.0.6 and fix font rendering issue ([41320b2](https://github.com/CialloJS/karin-plugin-qbot/commit/41320b2ba9ad136779dd483ef8dd1c4521d420b9))
+* **release:** 1.0.8 版本发布 ([ca97493](https://github.com/CialloJS/karin-plugin-qbot/commit/ca97493c495b88b338c61c072cc561fbb165aef6))
+* **release:** release version 1.0.2 ([5e2e5d7](https://github.com/CialloJS/karin-plugin-qbot/commit/5e2e5d76af53ba6fdb41504ea2674aedd334b3cf))
+* update author and repo links, adjust log level and add test command ([e061064](https://github.com/CialloJS/karin-plugin-qbot/commit/e061064a6010e04e92cb39d1dd839c2418c5c40f))
+* 新增多套小米sans字体文件 ([aff6129](https://github.com/CialloJS/karin-plugin-qbot/commit/aff6129cc2800c2226fbc66b85ca220294ab7ca0))
+* 替换项目字体为鸿蒙字体，移除旧的MiSans和NotoSansSC字体 ([de3339e](https://github.com/CialloJS/karin-plugin-qbot/commit/de3339e6840943a3997d729954384442e3a712a8))
+
+
+### ♻️ 代码重构
+
+* **index:** 初始化日志改为插件名+版本+耗时格式 ([1d8e71d](https://github.com/CialloJS/karin-plugin-qbot/commit/1d8e71d9ec2fc5b56a80fc9defdd32a45c33321b))
+* **render:** rewrite template lazy import to static string ([b2cfb25](https://github.com/CialloJS/karin-plugin-qbot/commit/b2cfb258a81527908c85fffdba20e06d9a7d1fbb))
+* **update:** 移除更新日志消息的插件名前缀文案 ([2380a4c](https://github.com/CialloJS/karin-plugin-qbot/commit/2380a4cbe134c987d5ac6f1d6d056c3a4e9cae78))
+* 优化模板资源加载逻辑，适配新的包发布结构 ([72f8132](https://github.com/CialloJS/karin-plugin-qbot/commit/72f81327d94def7463dfbe264cbd9114b68627b4))
+* 移除独立Web面板，改为ktr模板渲染功能页 ([3de0980](https://github.com/CialloJS/karin-plugin-qbot/commit/3de0980413479bd05e08af3b2c35d068d596a7a5))
+
+
+### 🏗️ 构建系统
+
+* **pnpm-workspace:** add esbuild to allowed built dependencies ([1712432](https://github.com/CialloJS/karin-plugin-qbot/commit/17124325d5310bee48003987443966f1325944c9))
+* 将build脚本从tsup改为tsdown ([75c36b9](https://github.com/CialloJS/karin-plugin-qbot/commit/75c36b9c80b4c5750241b18f6f85210eb682bd6a))
+
+
+### 🎡 持续集成
+
+* **github actions:** pin pnpm version to 10 in release workflow ([04399ae](https://github.com/CialloJS/karin-plugin-qbot/commit/04399ae79971d5f5fd801efe2ee5e4e0db822e25))
+* **github actions:** 修改pkg-pr-new输出日志收集方式 ([9f3e3f5](https://github.com/CialloJS/karin-plugin-qbot/commit/9f3e3f54cc36f53d2fd922e825f13868e88c86a9))
+* **github workflows:** add auto release note extraction and github release creation ([9031d9a](https://github.com/CialloJS/karin-plugin-qbot/commit/9031d9a8a5993f4811538a1b4a484904a320e613))
+* **github workflows:** npm 发布使用 NPM_TOKEN 认证 ([59a2bd0](https://github.com/CialloJS/karin-plugin-qbot/commit/59a2bd014ee2416fe54276767adb7cd821c5f944))
+* **github workflows:** update pnpm install flags for release workflow ([e3146fc](https://github.com/CialloJS/karin-plugin-qbot/commit/e3146fc6a986a449944abeb5c64a7dfe98ec2edf))
+* **github workflows:** 修复版本比较逻辑的返回值处理问题 ([f590681](https://github.com/CialloJS/karin-plugin-qbot/commit/f590681caf8e4e6e36d9cf05baba86a12baa8053))
+* **github workflows:** 预览包版本以 package.json 为唯一基准，移除 tag/release-please 推算 ([d2430e5](https://github.com/CialloJS/karin-plugin-qbot/commit/d2430e5007c5d7d81461e1a8959247d93ea9b395))
+
 ## [1.0.11](https://github.com/CialloJS/karin-plugin-qbot/compare/v1.0.10...v1.0.11) (2026-09-12)
 
 
